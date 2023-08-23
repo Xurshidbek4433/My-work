@@ -2,7 +2,6 @@ main {
   flex-grow: 1;
 }
 
-
 .hero__title {
   width: 100%;
   display: flex;
@@ -15,6 +14,12 @@ main {
   }
   p {
     max-width: 730px;
+  }
+}
+
+.hero__list {
+  img {
+    border-radius: 10px;
   }
 }
 .hero__bottom {

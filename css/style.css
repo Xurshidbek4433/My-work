@@ -467,6 +467,10 @@ main {
   max-width: 730px;
 }
 
+.hero__list img {
+  border-radius: 10px;
+}
+
 .hero__bottom {
   display: flex;
   flex-wrap: wrap;
