@@ -1,0 +1,31 @@
+.btn {
+  padding: 1.4rem 4.5rem 1.4rem 4.5rem;
+  border-radius: 28px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75;
+  color: $white-color;
+}
+
+.header__btn {
+  background-color: $black-color;
+
+  &:hover {
+    background-color: $green-color;
+  }
+}
+
+.main__btn {
+  background-color: $pink-color;
+
+  &:hover {
+    background-color: $oring-color;
+  }
+}
+
+// svg:hover {
+//     circle {
+//         fill:$green-color
+//     }
+//   }

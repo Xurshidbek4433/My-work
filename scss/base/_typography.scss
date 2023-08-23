@@ -1,0 +1,47 @@
+@font-face {
+  font-display: swap;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/plus-jakarta-sans-v8-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/plus-jakarta-sans-v8-latin-700.woff2") format("woff2");
+}
+body{
+    font-family: $main-ff;
+}
+
+h1,
+h2,
+h3 {
+  color: $black-color;
+  font-family: $main-ff;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+p{
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.55;
+}
